@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+QMainWindow {
+    background-color: #2B2B2B;
+    margin: 0;
+    padding: 0;
+    spacing: 0;
+}
+
+QTabWidget::pane {
+    border: none;
+    background: #2B2B2B;
+}
+
+QTabWidget::tab-bar {
+    alignment: left;
+}
+
+QTabBar::tab {
+    background: #353535;
+    color: #FFFFFF;
+    padding: 6px 8px;
+    border: none;
+    min-width: 120px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+QTabBar::tab:selected {
+    background: #454545;
+}
+
+QTabBar::icon {
+    position: relative;
+    top: 4px;
+}
+
+QTabBar::tab:hover {
+    background: #404040;
+}
+
+#navigationBar {
+    background: #353535;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+    height: 36px;
+    max-height: 36px;
+}
+
+#navButton {
+    background: #454545;
+    color: #FFFFFF;
+    border: none;
+    padding: 6px 6px;
+    border-radius: 4px;
+    min-width: 30px;
+    max-width: 30px;
+}
+
+#navButton:hover {
+    background: #505050;
+}
+
+#navButton:pressed {
+    background: #606060;
+}
+
+#urlBar {
+    background: #454545;
+    color: #FFFFFF;
+    border: 1px solid #555555;
+    border-radius: 4px;
+    padding: 2px 4px;
+    height: 22px;
+    selection-background-color: #666666;
+}
+
+#urlBar:focus {
+    border: 1px solid #666666;
+    background: #505050;
+}
+
+#webView {
+    padding: 0;
+    margin: 0;
+}
+
+QPushButton#addTabButton {
+    background: transparent;
+    color: #FFFFFF;
+    border: none;
+    padding: 5px 10px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+QPushButton#addTabButton:hover {
+    background: #404040;
+}
+
+QMenuBar {
+    background-color: #353535;
+    color: #FFFFFF;
+    padding: 0;
+    margin: 0;
+    height: 25px;
+    spacing: 0;
+}
+
+QMenuBar::item {
+    padding: 0px 10px;
+    background: transparent;
+    height: 25px;
+    min-height: 25px;
+    max-height: 25px;
+    margin: 0;
+    border: none;
+}
+
+QMenuBar::item:selected {
+    background: #454545;
+}
+
+QMenu {
+    background-color: #353535;
+    color: #FFFFFF;
+    border: 1px solid #454545;
+}
+
+QMenu::item {
+    padding: 6px 20px;
+}
+
+QMenu::item:selected {
+    background: #454545;
+}
